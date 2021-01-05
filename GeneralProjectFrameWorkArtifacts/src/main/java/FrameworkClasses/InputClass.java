@@ -92,8 +92,6 @@ public class InputClass {
 
 
 
-
-
 	// Click button by xpath
 	public WebDriver ClickButtonByXpath (String xpathvalue)               
 	{
@@ -168,8 +166,6 @@ public class InputClass {
 	}
 
 
-
-
 	// Function for Clearing data in fields
 	public WebDriver ClearData (String xpath)                
 	{
@@ -187,7 +183,6 @@ public class InputClass {
 
 
 	}
-
 
 	// Function to Get WebElement
 	public Pair<WebDriver, WebElement> GetWebElement(String xpath)                
