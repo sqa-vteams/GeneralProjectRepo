@@ -18,7 +18,7 @@ public class InputClass {
 	}
 
 	// Input by xpath
-	public WebDriver EnterDataUsingXpath(WebDriver driver,String xpathvalue, String inputvalue)       
+	public WebDriver EnterDataUsingXpath(WebDriver driver,String xpathvalue, String inputvalue)       // Function 1
 	{
 		try 
 		{
@@ -37,7 +37,7 @@ public class InputClass {
 	}
 
 	// Input by CSS Selector
-	public WebDriver EnterDataUsingCssSelector(WebDriver driver,String cssselectorvalue, String inputvalue)  
+	public WebDriver EnterDataUsingCssSelector(WebDriver driver,String cssselectorvalue, String inputvalue)   // Function 2
 	{
 		try 
 		{
@@ -56,7 +56,7 @@ public class InputClass {
 	}
 
 	// Input by ID
-	public WebDriver EnterDataUsingID(WebDriver driver,String IDvalue, String inputvalue)  
+	public WebDriver EnterDataUsingID(WebDriver driver,String IDvalue, String inputvalue)   // Function 3
 	{
 		try 
 		{
@@ -76,7 +76,7 @@ public class InputClass {
 
 
 	// Input by Name
-	public WebDriver EnterDataUsingName(WebDriver driver,String Namevalue, String inputvalue)  
+	public WebDriver EnterDataUsingName(WebDriver driver,String Namevalue, String inputvalue)  // Function 4
 	{
 		try 
 		{
@@ -99,7 +99,7 @@ public class InputClass {
 
 
 	// Click button by xpath
-	public WebDriver ClickButtonByXpath (WebDriver driver,String xpathvalue)               
+	public WebDriver ClickButtonByXpath (WebDriver driver,String xpathvalue)               // Function 5
 	{
 		try 
 		{
@@ -118,7 +118,7 @@ public class InputClass {
 	}
 
 	// Click button by CSS selector
-	public WebDriver ClickButtonbyCssSelector (WebDriver driver,String cssselectorvalue)               
+	public WebDriver ClickButtonbyCssSelector (WebDriver driver,String cssselectorvalue)               // Function 6
 	{
 		try 
 		{
@@ -137,7 +137,7 @@ public class InputClass {
 	}
 
 	// Click button by ID
-	public WebDriver ClickButtonbyID (WebDriver driver,String IDvalue)               
+	public WebDriver ClickButtonbyID (WebDriver driver,String IDvalue)               // Function 7
 	{
 		try 
 		{
@@ -157,7 +157,7 @@ public class InputClass {
 
 
 	// Click button by Name
-	public WebDriver ClickButtonbyName (WebDriver driver,String Namevalue)               
+	public WebDriver ClickButtonbyName (WebDriver driver,String Namevalue)               // Function 8
 	{
 		try 
 		{
@@ -179,7 +179,7 @@ public class InputClass {
 
 
 	// Function for Clearing data in fields
-	public WebDriver ClearData (WebDriver driver,String xpath)                
+	public WebDriver ClearData (WebDriver driver,String xpath)                // Function 9
 	{
 		try 
 		{
@@ -199,7 +199,7 @@ public class InputClass {
 
 
 	// Function to Get WebElement
-	public Pair<WebDriver, WebElement> GetWebElement(WebDriver driver,String xpath)                
+	public Pair<WebDriver, WebElement> GetWebElement(WebDriver driver,String xpath)               // Function 10 
 	{
 		this.driver=driver;
 		WebElement Element= driver.findElement(By.xpath(xpath));

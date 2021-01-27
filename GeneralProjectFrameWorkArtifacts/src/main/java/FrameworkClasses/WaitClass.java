@@ -18,7 +18,7 @@ public class WaitClass {
 		}
 	 
 		
-		public WebDriver WaitforelementtobeClickable(WebDriver driver,String xpath, int time)         // Wait Function 1              
+		public WebDriver WaitforelementtobeClickable(WebDriver driver,String xpath, int time)         //  Function 1              
 		{
 			try {
 				
@@ -36,7 +36,7 @@ public class WaitClass {
 		}
 	
 		
-		public WebDriver WaitforelementToBeSelected(WebDriver driver,String xpath, int time)         // Wait Function 2           
+		public WebDriver WaitforelementToBeSelected(WebDriver driver,String xpath, int time)         // Function 2           
 		{
 			try {
 				
@@ -54,7 +54,7 @@ public class WaitClass {
 		}
 		
 		
-		public WebDriver WaitforpresenceOfElementLocated(WebDriver driver,String xpath, int time)         // Wait Function 3           
+		public WebDriver WaitforpresenceOfElementLocated(WebDriver driver,String xpath, int time)         // Function 3           
 		{
 			try {
 				
@@ -71,7 +71,7 @@ public class WaitClass {
 			}
 		}
 		
-		public WebDriver WaitforvisibilityOfElementLocated(WebDriver driver,String xpath, int time)         // Wait Function 4           
+		public WebDriver WaitforvisibilityOfElementLocated(WebDriver driver,String xpath, int time)         // Function 4           
 		{
 			try {
 				
@@ -89,7 +89,7 @@ public class WaitClass {
 		}
 	
 	
-		public WebDriver WaitfortitleIs(WebDriver driver,String title, int time)         // Wait Function 5          
+		public WebDriver WaitfortitleIs(WebDriver driver,String title, int time)         // Function 5          
 		{
 			try {
 				
@@ -107,7 +107,7 @@ public class WaitClass {
 		}
 		
 
-		public WebDriver WaitfortitleContains(WebDriver driver,String title, int time)         // Wait Function 6         
+		public WebDriver WaitfortitleContains(WebDriver driver,String title, int time)         //  Function 6         
 		{
 			try {
 				
@@ -125,7 +125,7 @@ public class WaitClass {
 		}
 		
 		
-		public WebDriver WaitforInvisibilityOfElementLocated(WebDriver driver,String xpath, int time)         // Wait Function 7         
+		public WebDriver WaitforInvisibilityOfElementLocated(WebDriver driver,String xpath, int time)         //  Function 7         
 		{
 			try {
 				
@@ -143,7 +143,7 @@ public class WaitClass {
 		}
 		
 		
-		public WebDriver WaitfortextToBePresentInElement(WebDriver driver,String xpath, String Texttobepresent, int time)   // Wait Function 8         
+		public WebDriver WaitfortextToBePresentInElement(WebDriver driver,String xpath, String Texttobepresent, int time)   // Function 8         
 		{
 			try {
 				
@@ -161,7 +161,7 @@ public class WaitClass {
 		}
 		
 		
-		public WebDriver WaitforUrlContains(WebDriver driver,String text, int time)         // Wait Function 9       
+		public WebDriver WaitforUrlContains(WebDriver driver,String text, int time)         // Function 9       
 		{
 			try {
 				
