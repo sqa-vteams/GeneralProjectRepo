@@ -22,7 +22,7 @@ public class Scroller {
 		{
 			this.driver=driver;
 			JavascriptExecutor js = ((JavascriptExecutor) this.driver);
-			js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+			js.executeScript("window.scrollTo("+Pixel+", document.body.scrollHeight)");
 			return this.driver;
 		}
 		catch (Exception e){
