@@ -16,11 +16,16 @@ public class Browserinitiationclass {
 
 	WebDriver driver;
 
+	// constructor for driver
+			public  Browserinitiationclass(WebDriver driver)                   
+			{
+				this.driver=driver;
+			}
 
-	public WebDriver Chromeinitiation(String URL)                       // Function for Chrome
+	public WebDriver Chromeinitiation(WebDriver driver,String URL)                       // Function for Chrome
 	{
 		try {
-			
+			this.driver=driver;
 			Logger.getLogger("org.openqa.selenium.remote").setLevel(Level.SEVERE);
 			Logger.getLogger("org.openqa.selenium.remote").setLevel(Level.OFF);
 			System.setProperty("webdriver.chrome.silentLogging", "true");
@@ -57,10 +62,10 @@ public class Browserinitiationclass {
 
 
 
-	public WebDriver Firefoxinitiation(String URL)                    // Function for Firefox
+	public WebDriver Firefoxinitiation(WebDriver driver,String URL)                    // Function for Firefox
 	{
 		try {
-
+			this.driver=driver;
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true");   // command to hide logs
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");  
 			Logger.getLogger("org.openqa.selenium.remote").setLevel(Level.SEVERE);
@@ -100,10 +105,10 @@ public class Browserinitiationclass {
 
 
 
-	public WebDriver operainitiation(String URL)          // Function for Opera
+	public WebDriver operainitiation(WebDriver driver,String URL)          // Function for Opera
 	{
 		try {
-			
+			this.driver=driver;
 			Logger.getLogger("org.openqa.selenium.remote").setLevel(Level.SEVERE);
 			Logger.getLogger("org.openqa.selenium.remote").setLevel(Level.OFF);
 			System.setProperty("webdriver.chrome.silentLogging", "true");
